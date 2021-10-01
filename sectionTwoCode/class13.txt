@@ -1,0 +1,40 @@
+const printMyName = (name) => {
+	console.log(name);
+}
+
+printMyName('Max');
+
+
+
+//also can write to this, Same result
+
+const printMyName = () => {
+	console.log('Max');
+}
+
+printMyName();
+
+
+
+//Mutilple variable
+
+const printMyName = (name, age) => {
+	console.log(name, age);
+}
+
+printMyName('Max', 28);
+
+
+//More example
+
+const multiply = (number) => {
+	return number * 2;
+}
+
+console.log(multiply(2));
+
+
+//Shot way to write this
+
+const multiply = (number) => number * 2;
+console.log(mutilply(2));mate

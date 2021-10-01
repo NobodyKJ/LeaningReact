@@ -1,0 +1,55 @@
+//need add super() at extends class
+class Human {
+	constructer(){
+		this.gender = 'male';
+	}
+	
+	printGender(){
+		console.log(this.gender);
+	}
+}
+
+class Person extends Human {
+	constructer(){
+		super();
+		this.name = 'Max';
+	}
+	
+	printMyName() {
+		console.log(this.name);
+	} 
+}
+
+const person = new Person();
+person.printMyName();
+person.printGender();
+
+
+//add gender at extends class will update the value at human class
+
+class Human {
+	constructer(){
+		this.gender = 'male';
+	}
+	
+	printGender(){
+		console.log(this.gender);
+	}
+}
+
+class Person extends Human {
+	constructer(){
+		super();
+		this.name = 'Max';
+		//add gender
+		this.gender = 'female'
+	}
+	
+	printMyName() {
+		console.log(this.name);
+	} 
+}
+
+const person = new Person();
+person.printMyName();
+person.printGender();

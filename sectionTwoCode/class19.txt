@@ -1,0 +1,36 @@
+<<Class19>>
+
+//1
+
+const number = 1;
+const num2 = numbers;
+console.log(num2);
+
+//Max
+const person = {
+	name:'Max';
+};
+const secondPerson = person
+
+console.log(secondPerson);
+
+//Max
+const person = {
+	name:'Max';
+};
+const secondPerson = person;
+person.name = 'Manu';
+
+console.log(secondPerson);
+
+
+//Max
+const person = {
+	name:'Max';
+};
+const secondPerson = {
+	...person
+};
+person.name = 'Manu';
+
+console.log(secondPerson);

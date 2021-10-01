@@ -1,0 +1,21 @@
+var myName = 'Max'
+console.log(myName);
+
+myName = 'Manu'
+console.log(myName);
+
+//Same result
+let myName = 'Max'
+console.log(myName);
+
+myName = 'Manu'
+console.log(myName);
+
+
+//const value cant change
+
+const myName = 'Max'
+console.log(myName);
+
+myName = 'Manu'
+console.log(myName);
